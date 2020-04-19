@@ -26,4 +26,21 @@ Deactivate a virtualenv
 
 Add a virutalenv to jupyter-notebook
 	python-m pip install  ipykernel
-	python -m ipykernel install --user --name=plain
+	python -m ipykernel install --user --name=plain-3.6
+
+If jupyter can’t load modules
+	head -n 1 $(which pip)
+	import sys; print(sys.executable)
+	this 2 commands will not return the same thing
+Run
+	jupyter kernelspec list
+Remove
+	jupyter kernelspec remove python3
+Uninstall unwanted kernel
+	jupyter kernelspec uninstall plain-3.6
+	unset jupyter path
+Make sure that python3 in your env points to the env itself:
+	ipython kernel install --sys-prefix
+
+Ensure that jupyter is installed in the virtualenv
+Ensure that it virtualenv is added to the kernel
