@@ -1,0 +1,29 @@
+Install pyenv
+	brew install pyenv
+	brew install pyenv-virtualenv
+
+See a list of python available
+	pyenv install --list
+Install desire python package
+	pyenv install 3.6.8
+	pyenv install 3.7.4    
+See a list of all verisons
+	pyenv versions
+Activate a version 
+	pyenv local 3.7.4
+Set shell specific version
+	pyenv shell 3.6.8
+Set a global version
+	pyenv global 3.7.4
+
+Create a virtualenv
+	pyenv virtualenv 3.7.4 plain
+Activate a virutalenv
+	pyenv local myproject
+	pyenv activate <environment_name> 
+Deactivate a virtualenv
+	pyenv deactivate
+
+Add a virutalenv to jupyter-notebook
+	python-m pip install  ipykernel
+	python -m ipykernel install --user --name=plain
