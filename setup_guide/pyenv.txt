@@ -44,3 +44,5 @@ Make sure that python3 in your env points to the env itself:
 
 Ensure that jupyter is installed in the virtualenv
 Ensure that it virtualenv is added to the kernel
+
+3.7.9
