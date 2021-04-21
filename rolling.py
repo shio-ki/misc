@@ -19,6 +19,7 @@ test[f"-{lk_fwd}"] = test.shift(-lk_fwd)
 # in this 5 rows we set a condition
 # we find the index of the first element that match this condition 
 
+# include self roll fowrwad
 to_roll = lk_fwd+1
 lk_fwd_rolling = test.shift(-lk_fwd).rolling(to_roll)["value"]
 func = lambda y: ( y.iloc[1:] - y.iloc[0] > 2)
@@ -29,4 +30,12 @@ test["idx.1st.any"] = lk_fwd_rolling.apply(lambda x: func(x).sum() > 0 )
 test["window.self"] = lk_fwd_rolling.apply(lambda x: x.iloc[0] ) 
 test["window.first"] = lk_fwd_rolling.apply(lambda x: x.iloc[1] ) 
 test["window.last"] = lk_fwd_rolling.apply(lambda x: x.iloc[-1] ) 
+test
+
+# look backward inclusive
+test["first"] = test["value"].rolling(5).apply(lambda x: x.iloc[0])
+test["first.2"] = test["value"].shift(5 - 1)
+
+test["last"] = test["value"].rolling(5).apply(lambda x: x.iloc[-1])
+test["last.2"] = test["value"]
 test
