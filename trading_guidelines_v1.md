@@ -40,10 +40,12 @@
         - But better here does not mean smarter, or access to more resources.
         - It means we are more hardworking, more discipline in studying etc
         - We put in more effort than other people, we want it enough to sacrifice sleep etc
-
+	Its the same for trading, we are not aiming to be first in class, we are just aiming to pass
+	
 # 1: Edge: Character / Personality
 	The variance in intelligence is not huge. Few are much smarter or stupider. 
 	The variance in character is​ huge. People have many different personality traits etc. 
+	This is why some ppl who are smart and have good backing fail, while some "not so smart" ppl suceed.
     Hence, traits such as consistent hardwork, patience, discipline, humility etc are important​.
         - Many people do not consistently research, but we do.
         - Many people do not patiently wait for a signal, but we do.
