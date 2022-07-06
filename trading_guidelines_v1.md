@@ -269,3 +269,15 @@
         - price breaks the previous low significantly then we should get out.
         - price starts moving sideways and wishy washy then we should get out (our judgement of trend is wrong)
         - price rallys and pauses and starts trading sideways then we should be looking to get out 
+	
+# 3: Principles of trading: Conclusion
+    - Markets are efficient most of the time. However, 
+        - with patience we can wait and find the time when its inefficient and enter.
+        - with humility we can keep trying and take small losses when we are wrong
+	- with discipline we can keep reviewing our trades and find out whats wrong and right
+        - our cost price we pay for profits is our hardwork and discipline
+    - Rememeber
+        - we are not trying to be Bridgewaters or Rentech here
+        - we can reach there one day, but we just have to start small
+        - market is very scalable and if we just trade these points well we will be more than well rewarded 
+    - OF the critical points 1 to 5, just mastering one is good enough already
